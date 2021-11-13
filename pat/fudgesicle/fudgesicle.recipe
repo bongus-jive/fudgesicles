@@ -5,6 +5,6 @@
     { "item" : "darkwoodmaterial", "count" : 1 }
   ],
   "output" : { "item" : "pat_fudgesicle", "count" : 1 },
-  "groups" : [ "craftingfood", "snacks" ],
+  "groups" : [ "craftingfood", "desserts" ],
   "collectables" : { "cooking" : "pat_fudgesicle" }
 }
