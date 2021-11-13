@@ -1,0 +1,71 @@
+{
+	"sounds" : {
+		"start" : ["/sfx/npc/boss/guardian_death_fade.ogg"],
+		"kill" : ["/sfx/melee/fist_kill_organic.ogg"]
+	},
+	"particleEmitters" : {
+		"blood" : {
+			"burstCount" : 333,
+			"offsetRegion" : [0, 0, 0, 0],
+			"particles" : [
+				{
+					"particle" : {
+						"type" : "ember",
+						"size" : 1.25,
+						"color" : [220, 0, 0, 255],
+						"initialVelocity" : [0, 15],
+						"finalVelocity" : [0, -30],
+						"approach" : [4, 12],
+						"timeToLive" : 0,
+						"collidesForeground" : true,
+						"destructionAction" : "fade",
+						"destructionTime" : 10,
+						"layer" : "front",
+						"variance" : {
+							"size" : 0.75,
+							"initialVelocity" : [40, 40]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "ember",
+						"size" : 1.25,
+						"color" : [220, 0, 0, 255],
+						"initialVelocity" : [0, 15],
+						"finalVelocity" : [0, -30],
+						"approach" : [4, 12],
+						"timeToLive" : 0,
+						"collidesForeground" : true,
+						"destructionAction" : "fade",
+						"destructionTime" : 10,
+						"layer" : "front",
+						"variance" : {
+							"size" : 0.75,
+							"initialVelocity" : [25, 55]
+						}
+					}
+				},
+				{
+					"particle" : {
+						"type" : "ember",
+						"size" : 1.25,
+						"color" : [220, 0, 0, 255],
+						"initialVelocity" : [0, 15],
+						"finalVelocity" : [0, -30],
+						"approach" : [4, 12],
+						"timeToLive" : 0,
+						"collidesForeground" : true,
+						"destructionAction" : "fade",
+						"destructionTime" : 10,
+						"layer" : "front",
+						"variance" : {
+							"size" : 0.75,
+							"initialVelocity" : [55, 25]
+						}
+					}
+				}
+			]
+		}
+	}
+}

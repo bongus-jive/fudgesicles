@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "chocolate", "count" : 1 },
+    { "item" : "iceblock", "count" : 1 },
+    { "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "pat_fudgesicle", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ],
+  "collectables" : { "cooking" : "pat_fudgesicle" }
+}

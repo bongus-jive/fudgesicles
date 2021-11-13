@@ -1,0 +1,7 @@
+{
+  "name" : "pat_fudgesicle",
+  "defaultDuration" : 10,
+  "effectConfig" : {"timer" : 6.2},
+	"animationConfig" : "fudgesicle.animation",
+  "scripts" : ["fudgesicle.lua"]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName": "pat_fudgesicle",
+  "shortdescription": "Fudgesicle",
+  "description": "oh boy a fudgesicle!",
+  "inventoryIcon": "fudgesicle.png",
+  "rarity": "Legendary",
+  "tooltipKind": "food",
+  "category": "food",
+  "maxStack": 1,
+  "price": 150,
+	
+  "effects": [["pat_fudgesicle"]]
+}
